@@ -1,0 +1,114 @@
+.header-container {
+	text-align: center;
+	border-radius: 15px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 15px;
+	background-color: #212121;
+	padding-bottom: 15px;
+	background-image: url("../originals/camouflage-pattern.jpg");
+}
+
+.header-container h1 {
+	font-size: 56px;
+	line-height: 56px;
+	font-family: 'Russo One', sans-serif;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+.thumb  {
+    float: left;
+    padding: 15px;
+    border-style: outset;
+    margin: 10px;
+    width: 188px;
+    background-color: #614126;
+}
+
+.name {
+	font-size: 14px;
+	padding: 3px 3px 3px 1px;
+
+	/**** Simple CSS Truncate Text here *****/
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
+.image {
+	border: 1px solid #c0c0c0;
+}
+
+.displayimage img {
+	border-radius: 25px 25px 25px 25px;
+	-moz-border-radius: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	border: 15px double #2d2220;
+	margin-bottom: 10px;
+}
+
+div.well.col-md-12.header-well {
+	padding-bottom: 0;
+}
+
+.links {
+	text-align: center;
+}
+
+.links a:hover, .links a:focus {
+	color: #2d2220;
+	font-weight: bold;
+}
+
+.links a:active, .links a:link, .links a:visited {
+	color: #8B4513;
+	font-weight: bold;
+}
+
+span {
+	color: red;
+}
+
+p span {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#entryselect {
+	color: #000;
+}
+
+#templ img:first-of-type {
+	display: none;
+}
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#map {
+height: 500px;
+width: 100%;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+/*Display Page*/
+
+.locationtitle {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Edit Page*/
+
+.imagetitle {
+	text-align: center;
+}
+
+.imagepreview{
+	display: block;
+    margin: 0 auto;
+}
